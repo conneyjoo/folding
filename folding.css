@@ -1,0 +1,45 @@
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+.folding-block {
+	position: relative;
+	min-width: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+	background-color: #f5f5f5;
+	border-right: 5px solid #e3e3e3;
+	float: left;
+}
+
+.caret-expand {
+	position: absolute;
+	top: 48%;
+	left: 0%;
+	margin-left: 1px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	vertical-align: baseline;
+	border-top: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-left: 4px solid #000000;
+	border-bottom: 4px solid transparent;
+	content: "";
+}
+
+.caret-collapse {
+	position: absolute;
+	top: 48%;
+	left: 100%;
+	margin-left: -4px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	vertical-align: baseline;
+	border-top: 4px solid transparent;
+	border-right: 4px solid #000000;
+	border-left: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	content: "";
+}
